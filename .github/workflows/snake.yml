@@ -14,6 +14,9 @@ jobs:
           github_user_name: Muhammad-Ramazanovich
           outputs: |
             dist/github-contribution-grid-snake.svg
+          branches: |
+            main
+            old-fakes
           days: 700
 
       - name: Push to GitHub Pages
